@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+  width: 35%;
+  height: 120vh;
+  background: #f9f6f5;
+  padding: 2rem;
+}
+
+.right {
+  float: right;
+  width: 65%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.formBox {
+  padding: 100px 40px;
+  background: white;
+  padding-left: 8rem;
+}
+
+.right h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.8rem;
+}
+
+.right p {
+  font-size: 12px;
+  color: #aaa7a6;
+}
+
+.formBox input[type="text"],
+.formBox input[type="email"],
+.formBox input[type="password"] {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  height: 40px;
+  padding: 6px;
+  background: white;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.formBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  color: white;
+  background: #e2714e;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.formBox input[type="submit"]:hover {
+  opacity: 0.6;
+}
+
+.formBox a {
+  color: #85a1d4;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.formBox .or {
+  padding-bottom: 15px;
+  margin-left: 45%;
+}
+
+i {
+  color: black;
+  font-size: 1.2rem;
+}
+
+form > i,
+nav > i {
+  position: absolute;
+}
+
+#googl {
+  float: left;
+  padding-left: 1rem;
+}
+
+#eye {
+  right: 40px;
+  padding-top: 7px;
+  cursor: pointer;
+  color: #aaa7a6;
+}
+
+.barVal {
+  background-color: green;
+  height: 5px;
+}
+
+.barVal2 {
+  background-color: green;
+  height: 5px;
+}
+
+.barVal3 {
+  background-color: green;
+  height: 5px;
+}
+
+.barVal4 {
+  background-color: #cfcfcf;
+  height: 5px;
+}
+
+.bar {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cbox {
+  width: 5%;
+  float: left;
+  cursor: pointer;
+}
+
+.terms {
+  padding-top: 20px;
+}
+
+.terms p {
+  width: 95%;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+#Loginbuttons {
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  width: 100%;
+}
+
+.Google {
+  border: lightgray 1.5px solid;
+  background-color: white;
+  border-radius: 8px;
+  width: 65%;
+  height: 6vh;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.Google span {
+  padding-right: 1.5rem;
+  font-size: 18px;
+}
+
+.Facebook {
+  border: none;
+  background-color: lightgray;
+  border-radius: 8px;
+  width: 10%;
+  height: 6vh;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.Apple {
+  border: none;
+  background-color: lightgray;
+  border-radius: 8px;
+  width: 10%;
+  height: 6vh;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.left h1 {
+  color: #2b2c31;
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.left p {
+  color: #aaa7a6;
+  font-family: "Roboto", sans-serif;
+}
+
+.or {
+  text-transform: uppercase;
+}
+
+#pwstrength {
+  margin-bottom: 1rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.bounce {
+  position: absolute;
+  width: 17rem;
+  margin-top: 6rem;
+  margin-left: 10%;
+}
+
+@keyframes bounce {
+  0% {
+    top: 3.5rem;
+  }
+
+  50% {
+    top: 4rem;
+  }
+
+  100% {
+    top: 3.5rem;
+  }
+}
+
+.bounce {
+  animation: bounce 2s alternate infinite;
+}
+
+@media (min-width: 980px) {
+  .bounce {
+    margin-left: 17%;
+  }
+}
+
+@media (max-width: 785px) {
+  .Google span {
+    font-size: 12px;
+  }
+  .left p {
+    display: none;
+  }
+
+  .bounce {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 4;
+  }
+
+  #Loginbuttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    height: 30vh;
+  }
+
+  #googl {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+
+  #fb,
+  #apple {
+    font-size: 1rem;
+  }
+
+  .formBox {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .bounce {
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+  }
+}

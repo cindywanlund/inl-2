@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eb06b15c02.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Asgard</title>
+  </head>
+  <body>
+    <section class="container" id="Container">
+      <article class="left">
+        <h1>Asgard</h1>
+        <p>A cloud based community for you to connect with fellow Asgardians</p>
+        <img class="bounce" src="bandro.svg" alt="An animated robot" />
+      </article>
+
+      <section class="right">
+        <section class="formBox">
+          <h2>Sign up to Asgard</h2>
+          <p>Already have an account? <a href="http://google.com">Log in</a></p>
+          <nav id="Loginbuttons">
+            <button class="Google">
+              <i id="googl" class="fab fa-google"></i>
+              <span>Sign up with Google</span>
+            </button>
+            <button class="button Facebook">
+              <i id="fb" class="fab fa-facebook-square"></i>
+            </button>
+            <button class="button Apple">
+              <i id="apple" class="fab fa-apple"></i>
+            </button>
+          </nav>
+          <p class="or">-or-</p>
+
+          <form class="formArea">
+            <p>Full name</p>
+            <input type="text" name="" placeholder="Tylor Durden" />
+
+            <p>Email adress</p>
+            <input type="email" name="" placeholder="tylor@durden.design" />
+
+            <p>Password</p>
+            <i class="far fa-eye" id="eye"></i>
+            <input type="password" name="" placeholder="••••••••" />
+
+            <p id="pwstrength">Password Strength</p>
+            <!--Password strength green bar-->
+            <article class="bar">
+              <aside class="barVal"></aside>
+              <aside class="barVal2"></aside>
+              <aside class="barVal3"></aside>
+              <aside class="barVal4"></aside>
+            </article>
+          </form>
+          <form class="terms">
+            <input class="cbox" type="checkbox" name="terms" />
+            <p class="privacy">
+              By creating an account, you agree to accept our
+              <a href="#">Privacy Policy</a>,
+              <a href="#">Terms of Service</a> and
+              <a href="#">Notification settings</a>
+            </p>
+
+            <input type="submit" name="" value="Create Account" />
+          </form>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>

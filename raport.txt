@@ -1,0 +1,16 @@
+index.html 
+Meta-taggarna används för att öka SEO. Dessa är satta till att tillåta de flesta internationella tecken som åäö och arabiska mm. De anpassar även delvis till olika skärmar och även till olika webbläsare. 
+I rad 7 har jag länkat till min stylesheet "style.css" där jag har gjort min CSS-styling. 
+Efter det har jag länkat in fonter och ikoner. 
+Innanför bodyn börjar jag med section taggen som ska definiera vänster sida som är grå med text. Innanför den lägger jag en article eftersom att jag ska ha en rubrik med text innanför. 
+Här väljer jag även att lägga in svg på roboten så den lägger jag i en img tagg för bilder. Sedan stängs articlen. 
+Efter det lägger jag en section tagg för att definiera den högra sidan. 
+I section taggen lägger jag en ny section för att sedan kunna lägga på padding/margin. 
+I den så lägger jag in rubrik och paragraf följt av en länk. Länken lägger jag innanför p taggen eftersom att de ska höra ihop.
+Därefter lägger jag en nav tagg som ska innehålla några knappar som ska navigera till nya inloggningssätt. 
+Dessa knappar görs med button taggen och det är här jag använder de nedladdade ikonerna som läggs innanför taggen "i". Så innanför läggs i taggen och i första taggen lägger jag till en span för att kunna lägga in en text också. I de andra knapparna är det bara ikoner. 
+Därefter ska formuläret skapas. Detta görs innanför taggen "form". I mina "input" taggar ska det vara text som försvinner när man fyller i. Detta är en attribut "placeholder" som läggs i input taggen. I input taggen ska man även skriva vilken typ av input som förväntas (email, text, lösenord mm)
+Efter detta skapar jag en lösenords bar som visar hur starks lösenordet är. Detta gör jag genom att lägga aside taggar eftersom innehållet ska placeras bredvid varann. 
+Efter det skapar jag en ny formulär tagg där jag ska lägga in checkbox(input) och lite text med länkar(a)
+Efter det en input av typen submit, en knapp för att skapa kontot. 
+I html koden så skapas SEO utöver meta-taggarna så är det viktigt med semantisk kod. Detta görs genom att använda beskrivande taggar som adticle, form och table istället för ex. div. Det är även viktigt att ha en beskrivande text till bilder ifall att bilden inte kan laddas eller om det är någon synskadad som är inne på hemsidan. Då läses img alt attributet upp och då är det viktigt att den är beskrivande för bättre SEO. Även titel innanför head taggen med en beskrivande rubrik av vad innehållet gäller ökar SEO. 
